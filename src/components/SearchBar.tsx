@@ -9,7 +9,7 @@ const SearchBar = () => {
       <Input
         type="text"
         placeholder="Cari jasa... (misal: desain logo, edit video, copywriting)"
-        className="pl-12 pr-32 h-14 text-base border-2 border-border focus:border-primary transition-colors"
+        className="pl-12 pr-32 h-14 text-base border-2 border-border focus:border-primary transition-colors text-foreground placeholder:text-muted-foreground"
       />
       <Button 
         className="absolute right-2 top-1/2 -translate-y-1/2 bg-accent hover:bg-accent/90 h-10"
